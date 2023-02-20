@@ -44,7 +44,7 @@
 
         public bool IsSatisfied(T entity)
         {
-            return first.IsSatisfied(entity) && first.IsSatisfied(entity);
+            return first.IsSatisfied(entity) && second.IsSatisfied(entity);
         }
     }
 }
